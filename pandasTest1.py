@@ -28,3 +28,9 @@ print(newDataFrameDn)
 
 dataFileCSV = pd,pd.read_csv('dataFile.csv')
 print(dataFileCSV)
+
+# Head and Tail of the Data Frame
+
+print(newDataFrameDn.head(1))
+
+print(newDataFrameDn.tail(1))
