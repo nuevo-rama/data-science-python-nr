@@ -17,3 +17,9 @@ print(newDataFrame)
 newArrayNp = np.array([[1,2,3],[4,5,6],[0,0,0]])
 newDataFrameNp = pd.DataFrame(newArrayNp)
 print(newDataFrameNp)
+
+# Data Frames using Dictionary
+
+newDictionary = {"year":["1982", "1983", "1984"], "month":["01", "02", "03"]}
+newDataFrameDn = pd.DataFrame(newDictionary)
+print(newDataFrameDn)
