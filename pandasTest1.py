@@ -23,3 +23,8 @@ print(newDataFrameNp)
 newDictionary = {"year":["1982", "1983", "1984"], "month":["01", "02", "03"]}
 newDataFrameDn = pd.DataFrame(newDictionary)
 print(newDataFrameDn)
+
+# Loading CSV file as a Data Frame
+
+dataFileCSV = pd,pd.read_csv('dataFile.csv')
+print(dataFileCSV)
