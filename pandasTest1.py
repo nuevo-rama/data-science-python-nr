@@ -38,3 +38,7 @@ print(newDataFrameDn.tail(1))
 # Statiscal Summary
 
 print(newDataFrameDn.describe())
+
+# Row Slicing
+
+print(newDataFrameDn[0:2])
