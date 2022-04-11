@@ -26,7 +26,7 @@ print(newDataFrameDn)
 
 # Loading CSV file as a Data Frame
 
-dataFileCSV = pd,pd.read_csv('dataFile.csv')
+dataFileCSV = pd.read_csv('dataFile.csv')
 print(dataFileCSV)
 
 # Head and Tail of the Data Frame
