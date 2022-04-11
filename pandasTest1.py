@@ -34,3 +34,7 @@ print(dataFileCSV)
 print(newDataFrameDn.head(1))
 
 print(newDataFrameDn.tail(1))
+
+# Statiscal Summary
+
+print(newDataFrameDn.describe())
