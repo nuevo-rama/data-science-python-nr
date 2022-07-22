@@ -8,10 +8,13 @@ print(string[2]) # result: n
 
 ###
 
+string = 'sun'
+
 print(string[-1]) # result : n
 
 ###
 
-print(string[0:1]) # result: su
+string = 'performance'
 
-print(string[1:2]) # result: un
+print(string[0:3]) # result: per
+
